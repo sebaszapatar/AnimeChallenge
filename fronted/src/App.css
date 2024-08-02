@@ -39,7 +39,7 @@ body {
   border-radius: 5px 0 0 5px;
   border: 1px solid #ccc;
   outline: none;
-  width: calc(100% - 100px); /* Adjust width to allow space for button */
+  width: calc(100% - 100px);
 }
 
 .search-bar button {
@@ -49,7 +49,7 @@ body {
   background-color: #007bff;
   color: white;
   cursor: pointer;
-  width: 100px; /* Fixed width for button */
+  width: 100px;
 }
 
 .search-bar button:hover {
@@ -176,12 +176,12 @@ body {
   color: #007bff;
   font-weight: bold;
   margin-top: 20px;
-  font-size: 24px; /* Increase font size */
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px; /* Set a height to center vertically */
-  text-align: center; /* Center text horizontally */
+  height: 200px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -207,14 +207,14 @@ body {
   }
 
   .loading {
-    font-size: 20px; /* Adjust font size for smaller screens */
-    height: 150px; /* Adjust height for smaller screens */
+    font-size: 20px;
+    height: 150px;
   }
 }
 
 @media (max-width: 480px) {
   .loading {
-    font-size: 18px; /* Further adjust font size for smallest screens */
-    height: 100px; /* Further adjust height for smallest screens */
+    font-size: 18px;
+    height: 100px;
   }
 }
